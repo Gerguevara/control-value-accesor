@@ -1,0 +1,13 @@
+<div class="col-md-4">
+  <label>First Name</label>
+</div>
+<div class="col-md-6">
+
+    <!-- <input type="text" class="form-control" [formControl]="name" (keyup)="showValue()"> -->
+    <input type="text" class="form-control" [formControl]="name" (change)="showValue()">
+
+  <!-- <ng-template *ngIf="config.Control=='blur'">
+    <input type="text" class="form-control" [formControl]="name" (change)="showValue()">
+  </ng-template> -->
+
+</div>
